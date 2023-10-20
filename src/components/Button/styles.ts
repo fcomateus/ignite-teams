@@ -1,4 +1,4 @@
-import styled, { useTheme } from "styled-components/native";
+import styled, { useTheme, css } from "styled-components/native";
 import { TouchableOpacity } from "react-native";
 
 export type ButtonTypeStyleProps = 'PRIMARY' | 'SECONDARY';
