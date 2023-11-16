@@ -15,3 +15,18 @@ export const Form = styled.View`
 
     border-radius: 6px;
 `
+
+export const HeaderList = styled.View`
+    width: 100%;
+    
+    flex-direction: row;
+    align-items: center;
+
+    margin: 32px 0 12px;
+`
+
+export const QuantityOfPlayers = styled.Text`
+    color: ${() => useTheme().COLORS.GRAY_200};
+    font-family: ${() => useTheme().FONT_FAMILY.BOLD};
+    font-size: ${() => useTheme().FONT_SIZE.SM}px;
+`
